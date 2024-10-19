@@ -4,6 +4,8 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "noEmit": true, // Prevents emitting output files
+    "allowImportingTsExtensions": true, // Add this to allow importing .ts/.tsx extensions
     "jsx": "react-jsx",
     "strict": true,
     "types": ["jest", "@testing-library/jest-dom"],
